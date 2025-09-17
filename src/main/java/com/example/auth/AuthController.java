@@ -1,8 +1,7 @@
-package com.example.controller;
+package com.example.auth;
 
-import com.example.dto.AuthRequest;
-import com.example.dto.AuthResponse;
-import com.example.service.AuthService;
+import com.example.auth.dto.AuthRequest;
+import com.example.auth.dto.AuthResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

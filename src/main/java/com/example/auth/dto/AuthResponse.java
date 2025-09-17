@@ -1,4 +1,4 @@
-package com.example.dto;
+package com.example.auth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,3 +8,5 @@ import lombok.Data;
 public class AuthResponse {
     private String token;
 }
+
+

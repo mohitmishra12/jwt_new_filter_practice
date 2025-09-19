@@ -58,4 +58,5 @@ public class UserController {
         return repo.findByUsername(username).map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
+
 }
